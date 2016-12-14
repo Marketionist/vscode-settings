@@ -1,0 +1,26 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    { 
+        "key": "shift+space",
+        "command": "editor.action.triggerSuggest"
+    },
+    { 
+        "key": "cmd+shift+r",
+        "command": "workbench.action.reopenClosedEditor"
+    },
+    {
+        "key": "cmd+y",
+        "command": "redo",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+[",
+        "command": "editor.action.outdentLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+]",
+        "command": "editor.action.indentLines",
+        "when": "editorTextFocus && !editorReadonly"
+    }
+]
