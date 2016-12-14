@@ -1,0 +1,25 @@
+// Place your settings in this file to overwrite the default settings
+{
+    // Controls how the editor should render whitespace characters, posibilties are 'none', 'boundary', and 'all'. The 'boundary' option does not render single spaces between words.
+    "editor.renderWhitespace": "all",
+    // Controls how folders are being reopened after a restart. Select 'none' to never reopen a folder, 'one' to reopen the last folder you worked on or 'all' to reopen all folders of your last session.
+    "window.reopenFolders": "all",
+    // Columns at which to show vertical rulers
+    "editor.rulers": [80, 120],
+    // Controls whether the editor should render indent guides
+    "editor.renderIndentGuides": true,
+    // Adjust the zoom level of the window. The original size is 0 and each increment above (e.g. 1) or below (e.g. -1) represents zooming 20% larger or smaller. You can also enter decimals to adjust the zoom level with a finer granularity.
+    "window.zoomLevel": 1,
+    // Default indentation for Given, When, Then, And, But steps
+    // This option needs gherkin-indent plugin to be installed
+    "gherkin-indent.stepIndent": 2,
+    // Enable the newline insertion when saving the document
+    // This option needs final-newline plugin to be installed
+    "files.insertFinalNewline": true,
+
+    // Enable usage data and errors to be sent to Microsoft.
+    "telemetry.enableTelemetry": false,
+    // Enable crash reports to be sent to Microsoft.
+	// This option requires restart to take effect.
+    "telemetry.enableCrashReporter": false
+}
