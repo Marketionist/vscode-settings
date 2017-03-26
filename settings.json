@@ -2,6 +2,8 @@
 {
     // Controls how the editor should render whitespace characters, posibilties are 'none', 'boundary', and 'all'. The 'boundary' option does not render single spaces between words.
     "editor.renderWhitespace": "all",
+    // Removes cursor blinking to disable battery draining. // Control the cursor animation style, possible values are 'blink', 'smooth', 'phase', 'expand' and 'solid'.
+    "editor.cursorBlinking": "solid",
     // Controls how folders are being reopened after a restart. Select 'none' to never reopen a folder, 'one' to reopen the last folder you worked on or 'all' to reopen all folders of your last session.
     "window.reopenFolders": "all",
     // Columns at which to show vertical rulers
@@ -21,5 +23,7 @@
     "telemetry.enableTelemetry": false,
     // Enable crash reports to be sent to Microsoft.
     // This option requires restart to take effect.
-    "telemetry.enableCrashReporter": false
+    "telemetry.enableCrashReporter": false,
+    "workbench.colorTheme": "Monokai",
+    "workbench.iconTheme": "vs-seti"
 }
