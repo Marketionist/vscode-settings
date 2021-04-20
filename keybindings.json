@@ -5,6 +5,10 @@
         "command": "editor.action.triggerSuggest"
     },
     { 
+        "key": "cmd+ctrl+g",
+        "command": "editor.action.selectHighlights"
+    },
+    { 
         "key": "cmd+shift+r",
         "command": "workbench.action.reopenClosedEditor"
     },
