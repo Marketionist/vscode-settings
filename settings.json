@@ -20,10 +20,7 @@
     "files.insertFinalNewline": true,
 
     // Enable usage data and errors to be sent to Microsoft.
-    "telemetry.enableTelemetry": false,
-    // Enable crash reports to be sent to Microsoft.
-    // This option requires restart to take effect.
-    "telemetry.enableCrashReporter": false,
+    "telemetry.telemetryLevel": "off",
     "workbench.colorTheme": "Monokai",
     "workbench.iconTheme": "vs-seti"
 }
