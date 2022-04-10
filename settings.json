@@ -8,6 +8,10 @@
     "window.reopenFolders": "all",
     // Columns at which to show vertical rulers
     "editor.rulers": [80, 120],
+    // The number of spaces a tab is equal to. This setting is overridden based on the file contents when `editor.detectIndentation` is on
+    "editor.tabSize": 4,
+    // Insert spaces when pressing `Tab`. This setting is overridden based on the file contents when `editor.detectIndentation` is on
+    "editor.insertSpaces": true,
     // Controls whether the editor should render indent guides
     "editor.renderIndentGuides": true,
     // Adjust the zoom level of the window. The original size is 0 and each increment above (e.g. 1) or below (e.g. -1) represents zooming 20% larger or smaller. You can also enter decimals to adjust the zoom level with a finer granularity.
