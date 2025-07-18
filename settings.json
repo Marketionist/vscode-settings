@@ -1,30 +1,83 @@
 // Place your settings in this file to overwrite the default settings
 {
-    // Controls how the editor should render whitespace characters, posibilties are 'none', 'boundary', and 'all'. The 'boundary' option does not render single spaces between words.
+    // Controls how the editor should render whitespace characters, posibilties
+    // are 'none', 'boundary', and 'all'. The 'boundary' option does not render
+    // single spaces between words.
     "editor.renderWhitespace": "all",
-    // Removes cursor blinking to disable battery draining. // Control the cursor animation style, possible values are 'blink', 'smooth', 'phase', 'expand' and 'solid'.
+    // Controls if quick suggestions should show up while typing.
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+    },
+    // Controls the delay in ms after which quick suggestions will show up.
+    "editor.quickSuggestionsDelay": 10,
+    // Enable parameter hints
+    "editor.parameterHints.enabled": true,
+    // Removes cursor blinking to disable battery draining. Control the cursor
+    // animation style. Possible values are 'blink', 'smooth', 'phase', 'expand'
+    // and 'solid'.
     "editor.cursorBlinking": "solid",
-    // Controls how folders are being reopened after a restart. Select 'none' to never reopen a folder, 'one' to reopen the last folder you worked on or 'all' to reopen all folders of your last session.
-    "window.reopenFolders": "all",
     // Columns at which to show vertical rulers
     "editor.rulers": [80, 120],
-    // The number of spaces a tab is equal to. This setting is overridden based on the file contents when `editor.detectIndentation` is on
+    // The number of spaces a tab is equal to. This setting is overridden based
+    // on the file contents when `editor.detectIndentation` is on.
     "editor.tabSize": 4,
-    // Insert spaces when pressing `Tab`. This setting is overridden based on the file contents when `editor.detectIndentation` is on
+    // Insert spaces when pressing `Tab`. This setting is overridden based on
+    // the file contents when `editor.detectIndentation` is on.
     "editor.insertSpaces": true,
-    // Controls whether the editor should render indent guides
-    "editor.renderIndentGuides": true,
-    // Adjust the zoom level of the window. The original size is 0 and each increment above (e.g. 1) or below (e.g. -1) represents zooming 20% larger or smaller. You can also enter decimals to adjust the zoom level with a finer granularity.
+    // Controls whether the editor should render indent guides.
+    "editor.guides.indentation": true,
+    // Adjust the zoom level of the window. The original size is 0 and each
+    // increment above (e.g. 1) or below (e.g. -1) represents zooming 20% larger
+    // or smaller. You can also enter decimals to adjust the zoom level with a
+    // finer granularity.
     "window.zoomLevel": 1,
-    // Default indentation for Given, When, Then, And, But steps
-    // This option needs gherkin-indent plugin to be installed
-    "gherkin-indent.stepIndent": 2,
-    // Enable the newline insertion when saving the document
-    // This option needs final-newline plugin to be installed
-    "files.insertFinalNewline": true,
+    // Controls how folders are being reopened after a restart.
+    // Select 'none' to never reopen a folder, 'one' to reopen the last folder
+    // you worked on or 'all' to reopen all folders of your last session.
+    "window.restoreWindows": "all",
+    // Hot Exit controls whether unsaved files are remembered between sessions,
+    // allowing the save prompt when exiting the editor to be skipped.
+    // onExit: Hot exit will be triggered when the last window is closed on
+    // Windows/Linux or when the workbench.action.quit command is triggered
+    // (command palette, keybinding, menu). All windows without folders opened
+    // will be restored upon next launch. A list of previously opened windows
+    // with unsaved files can be accessed via File > Open Recent > More...
+    "files.hotExit": "onExit",
+    "workbench.colorTheme": "Monokai",
+    "workbench.preferredDarkColorTheme": "Monokai",
+    "workbench.iconTheme": "vs-seti",
+    // Controls which editor is shown at startup, if none are restored from the
+    // previous session. Will open a new untitled text file (only applies when
+    // opening an empty window).
+    "workbench.startupEditor": "newUntitledFile",
+
+    // This option needs Markdown Links plugin to be installed.
+    // Can be "default" or "obsidian".
+    "markdown-links.graphType": "obsidian",
+
+    "extensions.autoUpdate": false,
+    "update.mode": "none",
 
     // Enable usage data and errors to be sent to Microsoft.
     "telemetry.telemetryLevel": "off",
-    "workbench.colorTheme": "Monokai",
-    "workbench.iconTheme": "vs-seti"
+
+    // The following settings will only apply to markdown files.
+    "[markdown]": {
+        // Controls if quick suggestions should show up while typing.
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": false
+        },
+        // Controls whether completions should be computed based on words in the
+        // document and from which documents they are computed. When turned on,
+        // can be a little distracting in markdown docs.
+        "editor.wordBasedSuggestions": "off",
+        "editor.tabSize": 4,
+        // Set this to false if you turn on quickSuggestions but don't want
+        // suggestions for markdown related snippets as you type.
+        "editor.suggest.showSnippets": false,
+    },
 }
