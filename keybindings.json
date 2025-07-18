@@ -29,6 +29,7 @@
     },
     // Quickly create a new markdown note.
     // This option needs Markdown Notes plugin to be installed.
+    // (https://marketplace.visualstudio.com/items?itemName=kortina.vscode-markdown-notes)
     {
         "key": "alt+shift+n",
         "command": "vscodeMarkdownNotes.newNote",
