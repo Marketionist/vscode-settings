@@ -1,14 +1,14 @@
 // Place your key bindings in this file to overwrite the defaults
 [
-    { 
+    {
         "key": "shift+space",
         "command": "editor.action.triggerSuggest"
     },
-    { 
+    {
         "key": "cmd+ctrl+g",
         "command": "editor.action.selectHighlights"
     },
-    { 
+    {
         "key": "cmd+shift+r",
         "command": "workbench.action.reopenClosedEditor"
     },
@@ -26,5 +26,12 @@
         "key": "cmd+]",
         "command": "editor.action.indentLines",
         "when": "editorTextFocus && !editorReadonly"
-    }
+    },
+    // Quickly create a new markdown note.
+    // This option needs Markdown Notes plugin to be installed.
+    // (https://marketplace.visualstudio.com/items?itemName=kortina.vscode-markdown-notes)
+    {
+        "key": "alt+shift+n",
+        "command": "vscodeMarkdownNotes.newNote",
+    },
 ]
