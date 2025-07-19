@@ -13,7 +13,7 @@ select `Preferences: Open Keyboard Shortcuts (JSON)` to open Keyboard Shortcuts 
 
 ## VS Code extensions
 1. [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) - to apply code
-formatting rules from `.editorconfig` file.
+formatting rules from [`.editorconfig` file](https://editorconfig.org/#example-file).
 2. [Markdown Notes](https://marketplace.visualstudio.com/items?itemName=kortina.vscode-markdown-notes) - to create
 markdown files fast and link them.
 3. [Markdown Links](https://marketplace.visualstudio.com/items?itemName=tchayen.markdown-links) - to show a graph with
@@ -21,7 +21,7 @@ links between markdown files.
 4. [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) - to show who was the last to touch a
 particular line of code.
 5. [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - to check code styling
-according to `.eslintrc.json` rules.
+according to [`.eslintrc.json` rules](https://eslint.org/docs/latest/rules/).
 
 ## Keyboard shortcuts
 1. `command+shift+p` (or `control+shift+p` on Windows) - open Command Palette.
