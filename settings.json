@@ -11,7 +11,7 @@
         "strings": false
     },
     // Controls the delay in ms after which quick suggestions will show up.
-    "editor.quickSuggestionsDelay": 10,
+    "editor.quickSuggestionsDelay": 2000,
     // Enable parameter hints
     "editor.parameterHints.enabled": true,
     // Removes cursor blinking to disable battery draining. Control the cursor
@@ -28,6 +28,9 @@
     "editor.insertSpaces": true,
     // Controls whether the editor should render indent guides.
     "editor.guides.indentation": true,
+    // Controls whether the editor should automatically adjust the indentation
+    // when users type, paste, move or indent lines.
+    "editor.autoIndent": "brackets",
     // Adjust the zoom level of the window. The original size is 0 and each
     // increment above (e.g. 1) or below (e.g. -1) represents zooming 20% larger
     // or smaller. You can also enter decimals to adjust the zoom level with a
