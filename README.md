@@ -18,9 +18,11 @@ formatting rules from [`.editorconfig` file](https://editorconfig.org/#example-f
 markdown files fast and link them.
 3. [Markdown Links](https://marketplace.visualstudio.com/items?itemName=tchayen.markdown-links) - to show a graph with
 links between markdown files.
-4. [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) - to show who was the last to touch a
+4. [Markdown Link Updater](https://marketplace.visualstudio.com/items?itemName=mathiassoeholm.markdown-link-updater) -
+to automatically update the links between markdown files.
+5. [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) - to show who was the last to touch a
 particular line of code.
-5. [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - to check code styling
+6. [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - to check code styling
 according to [`.eslintrc.json` rules](https://eslint.org/docs/latest/rules/).
 
 ## Keyboard shortcuts
