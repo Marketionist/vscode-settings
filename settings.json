@@ -8,7 +8,7 @@
     "editor.quickSuggestions": {
         "other": true,
         "comments": false,
-        "strings": false
+        "strings": true
     },
     // Controls the delay in ms after which quick suggestions will show up.
     "editor.quickSuggestionsDelay": 2000,
